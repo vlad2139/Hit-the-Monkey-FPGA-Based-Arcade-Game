@@ -35,9 +35,10 @@ The scoring system utilizes a Binary-Coded Decimal (BCD) counting mechanism. Bec
 The RTL (Register-Transfer Level) design is compartmentalized into the following functional blocks:
 * **Input Conditioning Block:** Synchronizes external inputs and detects signal edges.
 * **Timing Generator:** Distributes tailored clock enables to various subsystems.
-
-## 👨‍💻 Author
-This application was developed by Bob Vlad Ștefan (Faculty of Electronics, Telecommunications and Information Technology - ETTI, Year II, Series B, Group 2126).
 * **FSM & Game Logic Core:** Evaluates coordinates, validates hits, and calculates game speed.
 * **PWM Visual Engine:** Translates positional history into duty-cycle modulated light outputs.
 * **Display Driver:** Decodes numerical data and drives the multiplexed hardware display.
+
+## 👨‍💻 Author
+This application was developed by Bob Vlad Ștefan (Faculty of Electronics, Telecommunications and Information Technology - ETTI, Year II, Series B, Group 2126).
+
